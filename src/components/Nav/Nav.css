@@ -1,0 +1,39 @@
+/***************************** Navbar ****************************************/
+
+::selection {
+  background-color: #ff9800;
+  color: #fff;
+}
+
+.bg-custom{
+	background-image: linear-gradient(to left, #434343 0%, black 100%);
+}
+
+.logo{
+    width: 4.25rem;
+    height: 2.25rem;
+}
+
+/***************************** Menu Links ****************************************/
+
+nav{
+	z-index: 2;
+}
+
+nav .container{
+	margin: 0 auto !important;
+}
+
+nav .nav-link{
+	letter-spacing: 0.0375rem;
+	cursor: pointer;
+	transition: color 0.5s;
+	font-size: calc(.7em + .5vw);
+	border-top: 0.0375rem solid transparent;
+}
+
+nav .nav-link:hover{
+	color: #d39e00 !important;
+	border-top: 0.0375rem solid #d39e00;
+	border-width:80%;
+}
