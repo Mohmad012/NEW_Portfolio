@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/NEW_Portfolio/static/css/main.a3df1c31.chunk.css",
+    "main.css": "/NEW_Portfolio/static/css/main.051eb462.chunk.css",
     "main.js": "/NEW_Portfolio/static/js/main.d392c79b.chunk.js",
     "main.js.map": "/NEW_Portfolio/static/js/main.d392c79b.chunk.js.map",
     "runtime-main.js": "/NEW_Portfolio/static/js/runtime-main.4cccdacc.js",
@@ -12,7 +12,7 @@
     "static/js/3.ef290b2d.chunk.js.map": "/NEW_Portfolio/static/js/3.ef290b2d.chunk.js.map",
     "index.html": "/NEW_Portfolio/index.html",
     "static/css/2.1dcd8b16.chunk.css.map": "/NEW_Portfolio/static/css/2.1dcd8b16.chunk.css.map",
-    "static/css/main.a3df1c31.chunk.css.map": "/NEW_Portfolio/static/css/main.a3df1c31.chunk.css.map",
+    "static/css/main.051eb462.chunk.css.map": "/NEW_Portfolio/static/css/main.051eb462.chunk.css.map",
     "static/js/2.d1335cc1.chunk.js.LICENSE.txt": "/NEW_Portfolio/static/js/2.d1335cc1.chunk.js.LICENSE.txt",
     "static/media/amazon.360068bf.jpg": "/NEW_Portfolio/static/media/amazon.360068bf.jpg",
     "static/media/car.39f4a3d5.jpg": "/NEW_Portfolio/static/media/car.39f4a3d5.jpg",
@@ -33,7 +33,7 @@
     "static/js/runtime-main.4cccdacc.js",
     "static/css/2.1dcd8b16.chunk.css",
     "static/js/2.d1335cc1.chunk.js",
-    "static/css/main.a3df1c31.chunk.css",
+    "static/css/main.051eb462.chunk.css",
     "static/js/main.d392c79b.chunk.js"
   ]
 }
