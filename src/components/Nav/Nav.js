@@ -32,7 +32,7 @@ const Nav = () => {
 				    <Link className="nav-link text-uppercase font-weight-bold text-white" to="/skills">Skills</Link>
 				  </li>
 				  <li className="nav-item mr-4">
-				    <Link className="nav-link text-uppercase font-weight-bold text-white" to="/contuct">Contuct Me</Link>
+				    <Link className="nav-link text-uppercase font-weight-bold text-white" to="/contuct">Contact Me</Link>
 				  </li>
 				</ul>
 			</div>
