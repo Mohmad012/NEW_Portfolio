@@ -1,7 +1,7 @@
 import React, {useMemo} from "react";
 import "./About.scss";
 import ImgMo from "./mohmad.jpg"
-const About = () => {
+const About = (props) => {
 
   const MyImg = useMemo(() => <img src={ImgMo} alt="mohmad" /> , [ImgMo])
 
