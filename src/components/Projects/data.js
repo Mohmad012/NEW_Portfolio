@@ -1,3 +1,4 @@
+import ChatNow from "./imgs/chatNow.png"
 import amazon from "./imgs/amazon.jpg"
 import tiktok from "./imgs/tiktok.png"
 import tinder from "./imgs/tinder.png"
@@ -28,4 +29,5 @@ export	const allData = [
 			{id:12,img:Prototypes,linkLive:"https://mohmad012.github.io/bootstrap3-2/",linkGithub:"https://github.com/Mohmad012/bootstrap3-2",name:"Prototypes Site",frontBack:false},
 			{id:13,img:Home,linkLive:"https://mohmad012.github.io/Real-Estate-Site/",linkGithub:"https://github.com/Mohmad012/Real-Estate-Site",name:"Home Design Site",frontBack:false},
 			{id:14,img:Tech,linkLive:"https://mohmad012.github.io/bootstrap3-1/",linkGithub:"https://github.com/Mohmad012/bootstrap3-1",name:"Tech Site",frontBack:false},
+			{id:15,img:ChatNow,linkLive:"https://mohmad012.github.io/ChatNow/",frontGithub:"https://github.com/Mohmad012/ChatNow",backGithub:"https://github.com/Mohmad012/ChatNow_Backend",name:"Chat App",frontBack:true}
 		]
