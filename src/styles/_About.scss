@@ -1,12 +1,12 @@
-@import "../mixins";
+@use "mixins";
 
-@include globSelcPage;
+@include mixins.globSelcPage;
 
 .container-cards{
-  @include backgroundPage;
+  @include mixins.backgroundPage;
 
   #container-cards {
-    @include mainPage;
+    @include mixins.mainPage;
 
     @media screen and (min-width: 2000px) {
       & {
@@ -34,7 +34,7 @@
     }
 
     .lg-heading{
-      @include lgHeading;
+      @include mixins.lgHeading;
 
       @media screen and (max-width: 768px) {
         & {
@@ -158,6 +158,6 @@
 }
 
 
-@include animateHead;
+@include mixins.animateHead;
 
-@include scrollbars(.5em, #ffc107);
+@include mixins.scrollbars(.5em, #ffc107);

@@ -10,7 +10,6 @@ import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
 import 'swiper/components/effect-coverflow/effect-coverflow.scss';
 
-import "./Projects.scss";
 import {allData} from './data.js'
 
 // install Swiper modules

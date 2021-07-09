@@ -1,6 +1,5 @@
 import React, {useMemo} from "react";
-import "./About.scss";
-import ImgMo from "./mohmad.jpg"
+import ImgMo from "../../images/mohmad.jpg"
 const About = (props) => {
 
   const MyImg = useMemo(() => <img src={ImgMo} alt="mohmad" /> , [ImgMo])

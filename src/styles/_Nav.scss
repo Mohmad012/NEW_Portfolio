@@ -1,10 +1,5 @@
 /***************************** Navbar ****************************************/
 
-::selection {
-  background-color: #ff9800;
-  color: #fff;
-}
-
 .bg-custom{
 	background-image: linear-gradient(to left, #434343 0%, black 100%);
 }
@@ -24,16 +19,6 @@ nav{
 .container{
 	margin: 0 auto !important;
 }
-
-/*
-
-nav .navbar-brand.active{
-	color: #d39e00 !important;
-	border-top: 0.0375rem solid #d39e00;
-	border-width:80%;
-}
-
-*/
 
 nav .nav-link{
 	letter-spacing: 0.0375rem;

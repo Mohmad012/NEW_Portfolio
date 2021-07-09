@@ -1,0 +1,11 @@
+@use "About";
+@use "Contact";
+@use "HomePage";
+@use "Nav";
+@use "Projects";
+@use "Skills";
+
+::selection {
+  background-color: #ff9800;
+  color: #fff;
+}

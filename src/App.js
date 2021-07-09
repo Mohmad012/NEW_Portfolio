@@ -6,9 +6,11 @@ import HomePage from "./components/HomePage/HomePage"
 import About from "./components/About/About"
 import Projects from "./components/Projects/Projects"
 import Skills from "./components/Skills/Skills"
-import Contuct from "./components/Contuct/Contuct"
+import Contact from "./components/Contact/Contact"
 
-function App() {
+import "./styles/index.scss";
+
+const App = () => {
   return (
     <BrowserRouter basename="/NEW_Portfolio">
       	<Nav />
@@ -17,10 +19,10 @@ function App() {
 			<Route path="/about" component={About} />
 			<Route path="/projects" component={Projects} />
 			<Route path="/skills" component={Skills} />
-			<Route path="/contuct" component={Contuct} />
+			<Route path="/contact" component={Contact} />
 		</Switch>
     </BrowserRouter>
   );
-}
+};
 
 export default App;

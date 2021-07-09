@@ -1,13 +1,8 @@
 /***************************** Home Page ****************************************/
 
-::selection {
-  background-color: #ff9800;
-  color: #fff;
-}
-
 .home{
 	position: relative;
-	background:url('./imgs/main.jpg');
+	background:url('../images/main.jpg');
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
@@ -38,4 +33,5 @@
 	height: 100vh;
 	width: 100vw;
 	z-index: 1;
+	background-color: transparent !important;
 }

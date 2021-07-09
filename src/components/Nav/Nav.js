@@ -1,6 +1,5 @@
 import React from "react";
-import logo from "../../kali.png";
-import "./Nav.css";
+import logo from "../../images/kali.png";
 import { NavLink, withRouter } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
@@ -38,7 +37,7 @@ const Nav = (props) => {
 				    <NavLink className="nav-link text-uppercase font-weight-bold text-white" exact activeStyle={StyleActive} to="/skills">Skills</NavLink>
 				  </li>
 				  <li className="nav-item mr-4">
-				    <NavLink className="nav-link text-uppercase font-weight-bold text-white" exact activeStyle={StyleActive} to="/contuct">Contact Me</NavLink>
+				    <NavLink className="nav-link text-uppercase font-weight-bold text-white" exact activeStyle={StyleActive} to="/contact">Contact Me</NavLink>
 				  </li>
 				</ul>
 			</div>

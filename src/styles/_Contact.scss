@@ -1,15 +1,10 @@
-@import "../mixins";
-
-::selection {
-  background-color: #ff9800;
-  color: #fff;
-}
+@use "mixins";
 
 .BxContact{
-  @include backgroundPage;
+  @include mixins.backgroundPage;
 
   #BxContact{
-	    @include mainPage;
+	    @include mixins.mainPage;
 	    position: relative;
 	    @media screen and (min-width: 769px) and (max-width: 1170px) {
 
@@ -31,7 +26,7 @@
 	    }
 
 	    .lg-heading{
-	      @include lgHeading;
+	      @include mixins.lgHeading;
 
 	      @media screen and (max-width: 768px) {
 	        & {
@@ -60,7 +55,7 @@
 	    }
 
 	    .sm-heading{
-	      @include smHeading;
+	      @include mixins.smHeading;
 
 	      @media screen and (max-width: 576px) {
 

@@ -1,12 +1,12 @@
-@import "../mixins";
+@use "mixins";
 
-@include globSelcPage;
+@include mixins.globSelcPage;
 
 .skills{
-  @include backgroundPage;
+  @include mixins.backgroundPage;
 
   #skills {
-    @include mainPage;
+    @include mixins.mainPage;
 
     @media screen and (min-width: 769px) and (max-width: 1170px) {
 
@@ -28,7 +28,7 @@
     }
 
     .lg-heading{
-      @include lgHeading;
+      @include mixins.lgHeading;
 
       @media screen and (max-width: 768px) {
         & {
@@ -55,7 +55,7 @@
     }
 
     .sm-heading{
-      @include smHeading;
+      @include mixins.smHeading;
 
       @media screen and (max-width: 767px) {
 
@@ -104,7 +104,7 @@
 
 
 #main-footer {
-  @include mainFooter;
+  @include mixins.mainFooter;
 
   @media screen and (max-width: 325px) {
 
@@ -143,8 +143,8 @@
 }
 
 
-@include animShining;
+@include mixins.animShining;
 
-@include animateHead;
+@include mixins.animateHead;
 
-@include scrollbars(.5em, #ffc107);
+@include mixins.scrollbars(.5em, #ffc107);

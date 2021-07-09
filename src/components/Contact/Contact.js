@@ -1,8 +1,7 @@
 import React ,{ useState } from "react";
-import "./Contuct.scss";
 import emailjs from 'emailjs-com';
 
-const Contuct = () => {
+const Contact = () => {
 
 	const [firstName , setFirstName] = useState('');
 	const [lastName , setLastName] = useState('');
@@ -153,4 +152,4 @@ const handelSuccessSnd = () => {
   );
 }
 
-export default Contuct;
+export default Contact;
