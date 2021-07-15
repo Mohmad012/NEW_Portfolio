@@ -10,6 +10,8 @@ import Contact from "./components/Contact/Contact"
 
 import "./styles/index.scss";
 
+
+
 const App = () => {
   return (
     <BrowserRouter basename="/NEW_Portfolio">
