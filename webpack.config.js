@@ -28,7 +28,7 @@ if (process.env.SERVE) {
   plugins.push(new ReactRefreshWebpackPlugin());
 }
 
-__webpack_base_uri__ = 'http://localhost:8080';
+__webpack_base_uri__ = 'http://localhost:3000';
 
 module.exports = {
   // mode defaults to 'production' if not set
@@ -118,5 +118,11 @@ module.exports = {
   devServer: {
     contentBase: "./build",
     hot: true,
+    port:3000,
+    writeToDisk: true,
+    // proxy: {
+    //     '/': 'http://localhost:3000'
+    // },
+    historyApiFallback: true
   },
 };
