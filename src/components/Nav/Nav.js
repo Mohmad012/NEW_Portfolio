@@ -18,7 +18,7 @@ const Nav = (props) => {
 			<NavLink className="navbar-brand" activeClassName="active" to="/">
 				<img className="logo" src={logo} alt="logo...." />
 			</NavLink>
-				<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<FontAwesomeIcon icon={faBars} style={{color:"#fff"}}/>
 			</button>
 
